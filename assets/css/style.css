@@ -1,7 +1,6 @@
 
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Indie+Flower&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Indie+Flower&display=swap');
 /* Asterisk wildcard to over ride default styles added by the browser */ 
 * {
     padding: 0;
@@ -25,7 +24,7 @@ header {
 }
 
 h1 {
-    font-family: 'Courier Prime', monospace ;
+    font-family: 'Comfortaa', cursive;
 }
 
 /* Main */
