@@ -92,8 +92,19 @@ main {
 }
 
 /* Footer */
-footer{
-    background-color: blanchedalmond;
+#social-media {
+   text-align: center;
+   padding: 10px 0;
+   display: flex;
+   justify-content: space-evenly;
+   list-style-type: none;
+   background-color: #BCA685;
+}
+
+#social-media i {
+    font-size: 180%;
+    padding: 5%;
+    color: #231D1A;
 }
 
 /* Media query: Tablets and larger (768px and up) */
