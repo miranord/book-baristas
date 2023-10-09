@@ -16,6 +16,14 @@ body {
     /* Generic project styles */
     color: #231D1A;
     font-family: 'Indie Flower', cursive;
+    background-color: #F8E0D8;
+}
+
+h1,h2 {
+    font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #050505;
 }
 
 /* Header */
@@ -34,13 +42,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    font-family: 'Comfortaa', cursive;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #050505;
 }
 
 #menu {
