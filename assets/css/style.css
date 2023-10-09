@@ -98,6 +98,11 @@ main {
     background: url("../images/Shutterstock_1084315088\ \(1\)\ 2\ \(1\).jpg") no-repeat center center/cover;
 }
 
+/* Welcome section styles */
+#welcome {
+    text-align: center;
+}
+
 /* Footer */
 #social-media {
    text-align: center;
