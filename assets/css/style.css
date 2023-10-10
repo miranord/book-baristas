@@ -109,6 +109,11 @@ main {
     height: auto;
 }
 
+#magic-book {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Footer */
 #social-media {
    text-align: center;
