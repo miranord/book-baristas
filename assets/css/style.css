@@ -104,19 +104,10 @@ main {
 }
 
 /* Menu section styles */
-#coffee-picture {
+.home-page-pictures {
     max-width: 100%;
     height: auto;
-}
-
-#magic-book {
-    max-width: 100%;
-    height: auto;
-}
-
-#cafe {
-    max-width: 100%;
-    height: auto;
+    padding: 1em;
 }
 
 /* Footer */
@@ -167,6 +158,11 @@ main {
     /* Main content */
     main {
         margin-top: 76px;
+    }
+
+    .home-page-pictures {
+    width: 250px;
+    height: auto;
     }
 }
 
