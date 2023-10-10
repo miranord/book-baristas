@@ -101,13 +101,29 @@ main {
 /* Welcome section styles */
 #welcome {
     text-align: center;
+    padding: 20px 0;
 }
 
-/* Menu section styles */
+/* Home page content styles */
 .home-page-pictures {
     max-width: 100%;
     height: auto;
-    padding: 1em;
+    padding: 20px;
+}
+
+.text-boxes {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.home-sections {
+    display: flex;
+    position: relative;
+}
+
+.for-flex {
+    display: flex;
+    flex-direction: column;
 }
 
 /* Footer */
@@ -160,11 +176,24 @@ main {
         margin-top: 76px;
     }
 
+    #menu-section-reverse {
+        flex-direction: row-reverse;
+    }
+
     .home-page-pictures {
-    width: 250px;
+    width: 300px;
     height: auto;
     }
+
+ .for-flex {
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+     
+ }
 }
+
+
 
 /* Media query: Laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
